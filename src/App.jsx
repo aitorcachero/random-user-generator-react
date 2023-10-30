@@ -13,12 +13,14 @@ function App() {
         <>
           <form onSubmit={handleSubmit}>
             <h2 className="h2">¿Cuantas personas quieres renderizar?</h2>
-            <input
-              type="text"
-              className="input-search"
-              placeholder="Introduce cantidad"
-            ></input>
-            <button type="submit">Renderizar</button>
+            <section className="section-form">
+              <input
+                type="text"
+                className="input-search"
+                placeholder="Introduce cantidad"
+              ></input>
+              <button type="submit">Renderizar</button>
+            </section>
           </form>
         </>
       )}
