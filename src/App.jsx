@@ -10,14 +10,17 @@ function App() {
   return (
     <>
       {!users && !loading && (
-        <form onSubmit={handleSubmit}>
-          <input
-            type="text"
-            className="input-search"
-            placeholder="Cuantas personas quieres renderizar"
-          ></input>
-          <button type="submit">Renderizar</button>
-        </form>
+        <>
+          <form onSubmit={handleSubmit}>
+            <h2 className="h2">¿Cuantas personas quieres renderizar?</h2>
+            <input
+              type="text"
+              className="input-search"
+              placeholder="Introduce cantidad"
+            ></input>
+            <button type="submit">Renderizar</button>
+          </form>
+        </>
       )}
       {loading && <Loader />}
 
