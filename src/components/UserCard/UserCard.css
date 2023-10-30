@@ -16,6 +16,7 @@ main {
   position: relative;
   color: #f0f0f0;
   box-shadow: 0 10px 30px 5px rgba(0, 0, 0, 0.2);
+  border: 1px solid rgb(255, 255, 255);
 }
 .card img {
   position: absolute;
@@ -51,6 +52,11 @@ main {
   color: inherit;
   text-decoration: none;
 }
+
+.card:hover {
+  border: 1px solid rgb(30, 255, 0);
+}
+
 .card:hover h2 {
   inset: auto auto 220px 30px;
   transition: inset 0.3s ease-out;
