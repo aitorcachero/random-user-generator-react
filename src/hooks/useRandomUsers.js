@@ -11,6 +11,7 @@ export default function useRandomUsers() {
       setLoading(true);
       const data = await getUsersFetch(num);
       setUsers(data);
+
       return data;
     } catch (error) {
       console.log(error);
@@ -37,6 +38,7 @@ export default function useRandomUsers() {
         user.name.first.toLowerCase().includes(value.toLowerCase())
       )
     );
+    return filtered;
   };
 
   return {

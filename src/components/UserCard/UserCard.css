@@ -46,6 +46,7 @@ main {
 }
 .card p {
   inset: auto auto 80px 30px;
+  font-size: 12px;
 }
 .card a {
   inset: auto auto 40px 30px;

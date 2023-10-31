@@ -157,3 +157,36 @@ li {
     background-color: #f9f9f9;
   }
 }
+
+@media (max-width: 576px) {
+  .input-search {
+    width: 200px;
+    height: 40px;
+    border-radius: 10px;
+    outline: none;
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+    border: 2px solid black;
+    background-color: rgb(143, 143, 143);
+    color: black;
+  }
+
+  .h2 {
+    font-size: 1.2em;
+  }
+
+  .input-filter {
+    width: 300px;
+    height: 50px;
+    padding: 10px;
+    text-align: center;
+    border-radius: 10px;
+    box-sizing: border-box;
+    outline: none;
+    font-size: 20px;
+    border: 2px solid black;
+    background-color: #dfdfdf;
+    color: #1a1a1a;
+  }
+}
