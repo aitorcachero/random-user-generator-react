@@ -189,4 +189,8 @@ li {
     background-color: #dfdfdf;
     color: #1a1a1a;
   }
+
+  button {
+    height: 50px;
+  }
 }
