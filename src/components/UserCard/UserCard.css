@@ -36,7 +36,9 @@ main {
   font-family: 'Roboto Condensed', sans-serif;
   font-weight: bold;
   text-transform: uppercase;
-  color: rgb(0, 255, 234);
+  width: 100%;
+  background-color: rgb(95, 95, 95);
+  color: rgb(30, 191, 255);
 }
 .card p,
 .card a {

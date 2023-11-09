@@ -48,6 +48,13 @@ function App() {
           </div>
         </>
       )}
+      {filtered && filtered.length === 0 && (
+        <div className="error-container">
+          <h2 className="h2" style={{ color: 'red', textAlign: 'center' }}>
+            No hay resultados
+          </h2>
+        </div>
+      )}
     </>
   );
 }
