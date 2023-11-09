@@ -30,7 +30,7 @@ main {
 }
 .card h2 {
   position: absolute;
-  inset: auto auto 30px 30px;
+  inset: auto auto 30px 0px;
   margin: 0;
   transition: inset 0.3s 0.3s ease-out;
   font-family: 'Roboto Condensed', sans-serif;
@@ -62,7 +62,7 @@ main {
 }
 
 .card:hover h2 {
-  inset: auto auto 220px 30px;
+  inset: auto auto 220px 0px;
   transition: inset 0.3s ease-out;
 }
 .card:hover p,
