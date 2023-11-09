@@ -7,7 +7,7 @@ export default function UserCard({ user }) {
       <div className="card">
         <img src={user.picture.large} alt="" />
         <div className="card-content">
-          <h2>
+          <h2 style={{ fontSize: '20px' }}>
             {user.name.first} {user.name.last}
           </h2>
           <p>{user.email}</p>
