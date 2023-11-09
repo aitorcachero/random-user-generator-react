@@ -32,7 +32,7 @@ function App() {
             <input
               className="input-filter"
               placeholder="Filtrar por nombre..."
-              onChange={debounce(handleChange, 1000)}
+              onChange={debounce(handleChange, 300)}
             />
           </div>
           <div className="grid-container">
